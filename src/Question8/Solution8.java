@@ -7,6 +7,7 @@ public class Solution8 {
         Scanner input = new Scanner(System.in);
         String gender = input.nextLine();
         int age = input.nextInt();
+        input.close();
         if (gender.equals("female") && age >= 1 && age <= 58) {
             System.out.println("8.2%");
         } else if (gender.equals("female") && age > 58 && age <= 100) {
