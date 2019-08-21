@@ -14,6 +14,5 @@ public class Solution4 {
         } else {
             System.out.println("zero");
         }
-
     }
 }
