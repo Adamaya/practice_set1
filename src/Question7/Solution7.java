@@ -8,7 +8,6 @@ public class Solution7 {
         char data = input.next().charAt(0);
         input.close();
         int ascii = data;
-        System.out.println(ascii);
         if (ascii >= 97 && ascii <= 122 || ascii >= 65 && ascii <= 90) {
             System.out.println("Alphabet");
         } else if (ascii >= 48 && ascii <= 57) {
