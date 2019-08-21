@@ -6,6 +6,7 @@ public class Solution10 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
+        input.close()
         switch (num) {
             case 1:
                 System.out.println("January");
