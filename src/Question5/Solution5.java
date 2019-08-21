@@ -17,6 +17,5 @@ public class Solution5 {
                 break;
             }
         }
-
     }
 }
