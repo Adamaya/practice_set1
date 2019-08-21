@@ -12,8 +12,10 @@ public class Solution7 {
             System.out.println("Alphabet");
         } else if (ascii >= 48 && ascii <= 57) {
             System.out.println("Digit");
-        } else if (ascii >= 33 && ascii <= 47) {
+        } else if (ascii >= 33 && ascii <= 42) {
             System.out.println("Special Character");
+        } else {
+            System.out.println("Arbitrary character");
         }
 
     }
