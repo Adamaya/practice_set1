@@ -14,9 +14,12 @@ class Child extends Parent {
     public void showk() {
         System.out.println("value of k: " + k);
     }
+
+    public void sum() {
+
+    }
 }
 public class Test {
     public static void main(String[] args) {
-
     }
 }
