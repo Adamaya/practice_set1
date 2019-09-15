@@ -7,5 +7,9 @@ class Parent {
         System.out.println("value of i: " + i + " and j: " + j);
     }
 }
+
+class Child {
+
+}
 public class Test {
 }
