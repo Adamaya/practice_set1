@@ -28,6 +28,8 @@ public class Test {
         childOb.k = 30;
         superOb.showij();
         childOb.showk();
+        //here childOb.showk() returns value of k only because in inheritance it child class only inherits the variables
+        // but not there actual value until they are not initialized in their child class.
         childOb.sum();
         childOb.i = 1;
         childOb.j = 2;
