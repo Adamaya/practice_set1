@@ -16,7 +16,7 @@ class Child extends Parent {
     }
 
     public void sum() {
-        System.out.println("sum of i+k+j: " + i + j + k);
+        System.out.println("sum of i+k+j: " + (i + j + k));
     }
 }
 public class Test {
@@ -28,6 +28,10 @@ public class Test {
         childOb.k = 30;
         superOb.showij();
         childOb.showk();
+        childOb.sum();
+        childOb.i = 1;
+        childOb.j = 2;
+        childOb.k = 3;
         childOb.sum();
     }
 }

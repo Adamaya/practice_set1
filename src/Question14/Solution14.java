@@ -11,11 +11,11 @@ public class Solution14 {
         input.close();
 //        int i=0;
 //        while(i<length(num)
-        String num1 = "";
+/*        String num1 = "";
         for (int i = num.length(); i < 0; i--) {
             num1 += num[i];
         }
         System.out.println(num1);
-
+*/
     }
 }
