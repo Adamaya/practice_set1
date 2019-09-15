@@ -9,7 +9,11 @@ class Parent {
 }
 
 class Child extends Parent {
+    int k;
 
+    public void showk() {
+
+    }
 }
 public class Test {
 }
