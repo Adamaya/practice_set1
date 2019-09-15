@@ -25,7 +25,7 @@ public class Test {
         Child childOb = new Child();
         superOb.i = 10;
         superOb.j = 20;
-
+        childOb.k = 30;
 
     }
 }
