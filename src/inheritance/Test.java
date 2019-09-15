@@ -23,5 +23,9 @@ public class Test {
     public static void main(String[] args) {
         Parent superOb = new Parent();
         Child childOb = new Child();
+        superOb.i = 10;
+        superOb.j = 20;
+
+
     }
 }
