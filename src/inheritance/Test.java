@@ -27,5 +27,7 @@ public class Test {
         superOb.j = 20;
         childOb.k = 30;
         superOb.showij();
+        childOb.showk();
+
     }
 }
