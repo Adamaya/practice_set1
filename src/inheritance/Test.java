@@ -8,7 +8,7 @@ class Parent {
     }
 }
 
-class Child {
+class Child extends Parent {
 
 }
 public class Test {
