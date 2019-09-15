@@ -12,7 +12,7 @@ class Child extends Parent {
     int k;
 
     public void showk() {
-
+        System.out.println("value of k: " + k);
     }
 }
 public class Test {
