@@ -28,6 +28,6 @@ public class Test {
         childOb.k = 30;
         superOb.showij();
         childOb.showk();
-
+        childOb.sum();
     }
 }
