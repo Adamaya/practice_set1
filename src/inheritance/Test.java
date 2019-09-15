@@ -26,6 +26,6 @@ public class Test {
         superOb.i = 10;
         superOb.j = 20;
         childOb.k = 30;
-
+        superOb.showij();
     }
 }
