@@ -7,7 +7,11 @@ public class Exc0 {
     }
 
     public static void main(String[] args) {
-
+        try {
+            Exc0.division();
+        } catch (ArithmeticException e) {
+            System.out.println("ArithmaticException Occured");
+        }
 
     }
 }
