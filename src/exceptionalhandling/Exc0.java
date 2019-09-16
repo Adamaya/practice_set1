@@ -6,7 +6,10 @@ public class Exc0 {
         int i = 10 / d;
     }
 
+    public static void main(String[] args) {
 
+
+    }
 }
 
 
