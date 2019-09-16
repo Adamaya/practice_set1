@@ -11,6 +11,12 @@ class Object2 extends Object1 {
     double density;
     double gravity;
 
+    public Object2(Object2 ob) {
+        height = ob.h;
+        gravity = ob.g;
+        density = ob.d;
+    }
+
 }
 public class ObjectConstructor {
 
