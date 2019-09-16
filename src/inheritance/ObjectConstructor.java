@@ -5,6 +5,6 @@ class Object1 {
     double d = 10;
     double g = 10;
 }
-
 public class ObjectConstructor {
+
 }
