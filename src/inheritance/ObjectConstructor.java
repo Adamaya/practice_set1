@@ -19,5 +19,7 @@ class Object2 extends Object1 {
 
 }
 public class ObjectConstructor {
+    public static void main(String[] args) {
 
+    }
 }
