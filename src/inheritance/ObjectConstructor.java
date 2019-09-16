@@ -6,7 +6,7 @@ class Object1 {
     double g = 10;
 }
 
-class Object2 {
+class Object2 extends Object1 {
     double height;
     double density;
     double gravity;
