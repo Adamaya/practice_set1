@@ -27,9 +27,14 @@ class Object2 {
 
 public class ObjectConstructor extends Object2 {
     public static void main(String[] args) {
-        double density;
-        ObjectConstructor(ObjectConstructor ob) {
-            super(ob)
-        }
+        //        double density;
+//        ObjectConstructor(ObjectConstructor ob) {
+//            super(ob);
+//            density=ob.density;
+//        }
+//        ObjectConstructor() {
+//            super();
+//            density=-1;
+//        }
     }
 }

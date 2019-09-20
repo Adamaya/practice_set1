@@ -18,6 +18,7 @@ class Child extends Parent {
     public void sum() {
         System.out.println("sum of i+k+j: " + (i + j + k));
     }
+
 }
 public class Test {
     public static void main(String[] args) {
